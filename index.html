@@ -4,10 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
+    <title>Roy's Website</title>
     <link rel="stylesheet" href="style.css">
+    
   </head>
   <body>
-    <h1>This Website is currently under construction, please come back later</h1>
+    <div class="top-container">
+      <div class="top">
+        <div class="email" ><b>ywang349@u.rochester.edu</b></div>
+        <button
+          type="button"
+          id="themeToggle"
+          class="Theme">theme</button>
+      </div>
+    </div>
+
+    <div class="main-container">
+      <div class="main">
+        <div class="main-title">
+          👋 Hi, I'm Roy
+        </div>
+
+        <div class="main-body">
+          I'm a fresh graduate from University of Rochester studying Computer Science and Business Information System.
+          I graduated at Dec, 2023, one semester early than all of my peers with a 3.75 GPA (overall) and 3.85 (CS). During
+          my university years, my main interest was in machine learning and data science, but after graduatation I also built projects
+          regarding full stack development. 
+        </div>
+
+        <div class="main-socials">
+          <p style="padding-right: 0.5rem">Links:</p>
+          <a href="https://github.com/Yuze-Wang-RoyAnnd" style="padding: 0.5rem;">
+            <img src="github.svg" alt="" width="100%" height="100%">
+          </a>
+          <a href="https://www.linkedin.com/in/yuzewang/" style="padding: 0.5rem;">
+            <img src="linkedin.svg" alt="" width="100%" height="100%">
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="projects-container">
+      <div class="projects-showcase">
+        <div class="project-title">
+          🖥️ Projects
+        </div>
+
+        <div class="sub-p">
+          <div class="p-name">
+            <p>Comparative Analytic for Stock Analysis </p>
+            <a style="margin-left: 0.5rem" href="https://github.com/Yuze-Wang-RoyAnnd/FinanceApp">
+              <img src="link.svg" alt=""  width="100%" height="100%">
+            </a>
+          </div>
+          <div class="keywords">
+            <u>Python, Flask, Javascript, ReactJS, Redis, Database System, Azure, Webscraping.</u>
+          </div>
+          <div class="p-dicription">
+            Full stack project that utilize React, Flask, and Redis to create a dashboard in comparing different coporate 
+            finance Information. All Information are scrapped from Yahoofinance and processed stored with python.
+          </div>
+        </div>
+
+
+
+        <div class="sub-p">
+          <div class="p-name">
+            <p>Pesudo Auto regressive Diffusion for Monophonic Piano</p>
+            <a style="margin-left: 0.5rem" href="https://github.com/Yuze-Wang-RoyAnnd/DDPM_For_Audio">
+              <img src="link.svg" alt=""  width="100%" height="100%">
+            </a>
+          </div>
+          <div class="keywords">
+            <u>Python, Numpy, Scipy, Pytorch, Machine Learning, Diffusion, Audio System</u>
+          </div>
+          <div class="p-dicription">
+            Utilize the Image inpaiting technique for continuous audio generation using diffusion. Improve the Repaint algorithm in efficiency by
+            provding more effecient context injection idea.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="width: 100%;">
+      <div class="footer">
+        CopyRight @ 2024 | All Right Reserved
+      </div>
+
+
+    </div>
+
   </body>
+  <script type="text/javascript" src="script.js"></script>
 </html>
